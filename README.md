@@ -22,9 +22,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Leaderboard Project <a name="about-project"></a>
+# 📖 Movie-Site Project <a name="about-project"></a>
 
-**Leaderboard ** allows users to submit and get name and scores to/from server
+**Movie-Site ** allows visiters to watch movies, give comment and likes
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -52,9 +52,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Display scores**
-- **Submit scores**
-- **Preserve data**
+- **Watch movies**
+- **Give comment on movies**
+- **Give likes on movies**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -63,7 +63,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-#### <a href="https://kamranahmad123.github.io/leaderboard-proj/dist/">live link</a>
+#### <a href="https://kamranahmad123.github.io/Movie-Site/dist/">live link</a>
 
 
 
@@ -99,7 +99,7 @@ npm start
 You can deploy this project using 
 > [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 
-> [github html preview](https://github.com/kamranahmad123/To-Do-Structure/tree/add-remove-todos) and paste index adress into it to view.
+> [github html preview](https://github.com/kamranahmad123/Movie-Site/tree/project-setup) and paste index adress into it to view.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,9 +159,9 @@ If you like this project give me a star.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/kamranahmad123/leaderboard/blob/setup-project/LICENSE.md) licensed.
+This project is [MIT](https://github.com/kamranahmad123/Movie-Setup/blob/setup-project/LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# leaderboard
+# Movie-Setup
 # javascriptCaptsone
