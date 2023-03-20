@@ -24,7 +24,7 @@
 
 # 📖 Leaderboard Project <a name="about-project"></a>
 
-**Leaderboard ** allows users to submit and get name and scores to/from server
+** JavascriptCapstone ** allow visitors to watch shows, give likes and comments
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -52,9 +52,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Display scores**
-- **Submit scores**
-- **Preserve data**
+- **Display movies from API**
+- **get likes to API**
+- **receive comments**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -63,7 +63,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-#### <a href="https://kamranahmad123.github.io/leaderboard-proj/dist/">live link</a>
+#### <a href="https://kamranahmad123.github.io/javascriptCapstone/dist/">live link</a>
 
 
 
@@ -99,7 +99,7 @@ npm start
 You can deploy this project using 
 > [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 
-> [github html preview](https://github.com/kamranahmad123/To-Do-Structure/tree/add-remove-todos) and paste index adress into it to view.
+> [github html preview](https://github.com/kamranahmad123/javascriptCaptsone) and paste index adress into it to view.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,9 +159,8 @@ If you like this project give me a star.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/kamranahmad123/leaderboard/blob/setup-project/LICENSE.md) licensed.
+This project is [MIT](https://github.com/kamranahmad123/javascriptCapstone/blob/show-list/LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# leaderboard
 # javascriptCaptsone
