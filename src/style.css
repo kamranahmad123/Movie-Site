@@ -1,6 +1,7 @@
-* {
+body{
   padding: 0;
   margin: 0;
+  background-color: black;
 }
 
 .header {
@@ -29,4 +30,66 @@
 
 .link {
   margin: 0 30px;
+}
+
+@media screen and (max-width: 800px) {
+.my-links {
+  display: flex;
+  width: 80%;
+  margin-left: 10px;
+}
+.link, .logo {
+  font-size: smaller;
+}
+}
+
+
+
+/* Footer Part */
+
+.description-footer {
+  color: white;
+  margin-right: 1%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(61, 60, 61);
+  position: absolute;
+  bottom: 0;
+  padding-left: 8%;
+  height: 60px;
+  width: 100%;
+}
+
+.combination {
+  display: flex;
+  width: 50%;
+  margin-top: 10px ;
+}
+
+.show-footer {
+  height: 25px;
+  margin-left: 10%;
+}
+
+.shows-part {
+  margin-top: 15px;
+  color: rgb(83, 218, 83);
+}
+
+@media screen and (max-width: 800px) {
+  .show-part {
+    font-size:smaller;
+
+  }
+  .show-footer {
+    font-size: smaller;
+    margin-left: -30px;
+  }
+  .combination {
+    margin-right: -15px;
+    width: 79%;
+  }
 }
