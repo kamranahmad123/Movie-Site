@@ -164,4 +164,3 @@ This project is [MIT](https://github.com/kamranahmad123/leaderboard/blob/setup-p
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # leaderboard
-# javascriptCaptsone
