@@ -1,4 +1,32 @@
-body {
+* {
   padding: 0;
   margin: 0;
+}
+
+.header {
+  background-color: rgb(61, 60, 61);
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.logo {
+  font-family: cursive;
+  border-left: 1.5px solid #fff;
+  border-top: 1.5px solid #fff;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.my-links,
+.link {
+  display: inline-block;
+}
+
+.link {
+  margin: 0 30px;
 }
