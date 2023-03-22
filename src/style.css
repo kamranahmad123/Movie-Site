@@ -12,6 +12,7 @@ body {
   align-items: center;
   color: white;
   cursor: pointer;
+  margin-bottom: 10px;
 }
 
 .logo {
@@ -56,8 +57,6 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: rgb(61, 60, 61);
-  position: absolute;
-  bottom: 0;
   padding-left: 8%;
   height: 60px;
   width: 100%;
@@ -93,4 +92,75 @@ body {
     margin-right: -15px;
     width: 79%;
   }
+}
+
+/* Main section */
+.episode-list {
+  display: flex;
+  flex-flow: row wrap;
+  width: 60%;
+  margin-left: 20%;
+  justify-content: space-between;
+}
+
+.moviePic {
+  border-bottom: solid 2px wheat;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  border-top-right-radius: 2%;
+  width: 210px;
+}
+
+.movieFrame {
+  border: solid 1px rgb(109, 96, 96);
+  border-radius: 2%;
+  margin-bottom: 2%;
+  color: white;
+  width: 210px;
+}
+
+.movieName,
+.movieCategory {
+  color: white;
+  margin-left: 2%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 780px) {
+  .episode-list {
+    margin-left: 30%;
+  }
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.picDetails {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.button {
+  border-radius: 9%;
+  border: solid white;
+  color: brown;
+  height: 25px;
+}
+
+.likeCount {
+  margin-left: 2%;
+}
+
+/* like part */
+.like {
+  color: red;
 }
