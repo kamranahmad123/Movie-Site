@@ -1,15 +1,15 @@
 import movieCount from './header.js';
+import myPopup from './Popup.js';
 
 const series = document.querySelector('.episode-list');
 
 const displayData = (data) => {
-//   const { url } = data;
   const { name } = data;
-  //   const description = data.summary;
+  const description = data.summary;
+
   const category = data.genres;
   const homePicture = data.image.medium;
-  //   const popPicture = data.image.original;
-  //   const { language } = data;
+  const popPicture = data.image.original;
   const movieImage = document.createElement('img');
   const movieName = document.createElement('p');
   const division = document.createElement('div');
@@ -32,7 +32,15 @@ const displayData = (data) => {
   movieCategory.classList.add('movieCategory');
   picDetails.classList.add('picDetails');
   likeCount.classList.add('likeCount');
-  button.classList.add('button');
+  button.classList = 'comment-bttn';
+  button.addEventListener('click', () => {
+    myPopup(button, name, description, category, popPicture);
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth', // for a smooth scrolling animation
+    });
+  });
   box.classList.add('box');
   series.classList.add('series');
   box.appendChild(button);
