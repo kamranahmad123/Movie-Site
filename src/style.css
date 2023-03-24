@@ -3,6 +3,7 @@ body {
   margin: 0;
   background-color: black;
   font-family: sans-serif;
+  list-style: none;
 }
 
 .header {
@@ -136,9 +137,13 @@ body {
   overflow: hidden;
 }
 
-@media only screen and (max-width: 780px) {
+@media screen and (max-width: 780px) {
   .episode-list {
     margin-left: 30%;
+  }
+
+  .pup-holder {
+    width: 90%;
   }
 }
 
@@ -216,11 +221,29 @@ body {
 #name,
 #comment {
   border: 1.5px solid #000;
-  width: 40%;
+  width: 70%;
   margin: 7px;
 }
 
 #post {
-  width: 20%;
   padding: 7px;
+}
+
+#comment-holder {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  list-style: none;
+}
+
+.list-item {
+  padding: 7px;
+  width: 80%;
+  background: #f9f9f9;
+  align-self: center;
+  border: 1px solid #c5c1c1;
+  margin: 3px 0;
+  text-align: left;
+  margin-left: -35px;
 }
