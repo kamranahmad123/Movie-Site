@@ -27,14 +27,18 @@ const myCommentAdd = (movieId, commentHolder, commentCount) => {
       const res = await fetch(`https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/RIQXlT0tOk3Ka907K1S2/comments?item_id=item${movieId}`);
       const data = await res.json();
 
+      commentCount.innerText = `Comments(${data.length})`;
       const keys = Object.keys(data);
       const secondToLastKey = keys[keys.length - 1];
       const secondToLastValue = data[secondToLastKey];
-      commentCount.innerText = `Comments(${data.length + 1})`;
+
       const li = document.createElement('li');
       li.classList = 'list-item';
       li.innerHTML = `${secondToLastValue.creation_date} ${secondToLastValue.username} : ${secondToLastValue.comment}`;
       commentHolder.appendChild(li);
+
+      const myFirstItem = commentHolder.querySelectorAll('li')[data.length];
+      commentHolder.removeChild(myFirstItem);
     };
     getData();
     setTimeout(() => {
