@@ -17,4 +17,4 @@ const getLikeData = async (count) => {
   return result;
 };
 
-export {sendData, getLikeData}
+export { sendData, getLikeData };
