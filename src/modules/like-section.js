@@ -1,4 +1,4 @@
-export default function sendData(count) {
+function sendData(count) {
   fetch('https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/iSougRnGfvufqYKBqkTu/likes/', {
     method: 'POST',
     body: JSON.stringify({ item_id: `item${count}` }),
@@ -10,9 +10,11 @@ export default function sendData(count) {
   setTimeout(reload1, 1300);
 }
 
-// const getLikeData = async (count) => {
-//   const res = await fetch('https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/iSougRnGfvufqYKBqkTu/likes');
-//   const data = await res.json();
-//   const result = data[count].likes;
-//   return result;
-// };
+const getLikeData = async (count) => {
+  const res = await fetch('https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/iSougRnGfvufqYKBqkTu/likes');
+  const data = await res.json();
+  const result = data[count].likes;
+  return result;
+};
+
+export { sendData, getLikeData };

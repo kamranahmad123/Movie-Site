@@ -1,5 +1,5 @@
 import movieCount from './header.js';
-import sendData from './like-section.js';
+import { sendData, getLikeData } from './like-section.js';
 import myPopup from './Popup.js';
 
 const series = document.querySelector('.episode-list');
@@ -29,7 +29,6 @@ const displayData = (data, count) => {
     sendData(x);
   });
   button.innerHTML = 'Comment';
-  likeCount.innerHTML = `<p>Likes: ${23}<p>`;
   like.setAttribute('class', 'fa fa-heart');
   movieName.classList.add('movieName');
   movieName.classList.add('movieName');
@@ -46,7 +45,7 @@ const displayData = (data, count) => {
       behavior: 'smooth', // for a smooth scrolling animation
     });
   });
-  // getLikeData(x).then((x) => { likeCount.innerHTML = `Likes: ${x}`; });
+  getLikeData(x).then((x) => { likeCount.innerHTML = `Likes: ${x}`; });
   box.classList.add('box');
   box.classList.add('box');
   series.classList.add('series');
