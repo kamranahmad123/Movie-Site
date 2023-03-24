@@ -6,7 +6,8 @@ const myCommentDisplay = async (movieId, commentHolder) => {
     .then((data) => {
       data.forEach((x) => {
         const li = document.createElement('li');
-        li.innerHTML = `<li class="list-item">${x.creation_date} ${x.username}: ${x.comment}</li>`;
+        li.classList = 'list-item';
+        li.innerHTML = `${x.creation_date} ${x.username}: ${x.comment}`;
         commentHolder.appendChild(li);
       });
     });
