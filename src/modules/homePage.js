@@ -6,7 +6,7 @@ const series = document.querySelector('.episode-list');
 const displayData = (data) => {
   const { name } = data;
   const description = data.summary;
-
+  const movieId = data.id;
   const category = data.genres;
   const homePicture = data.image.medium;
   const popPicture = data.image.original;
@@ -34,7 +34,7 @@ const displayData = (data) => {
   likeCount.classList.add('likeCount');
   button.classList = 'comment-bttn';
   button.addEventListener('click', () => {
-    myPopup(button, name, description, category, popPicture);
+    myPopup(button, name, description, category, popPicture, movieId);
     window.scrollTo({
       top: 0,
       left: 0,
