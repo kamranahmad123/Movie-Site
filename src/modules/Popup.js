@@ -1,5 +1,6 @@
 import myCommentDisplay from './DisplayComment.js';
-/* import myCommentAdd from './AddComments.js'; */
+import myCommentAdd from './AddComments.js';
+import myCommentCount from './countComments.js';
 
 export default function myPopup(button, name, description, category, popPicture, movieId) {
   const popContainer = document.createElement('div');
@@ -10,6 +11,7 @@ export default function myPopup(button, name, description, category, popPicture,
   <h1 class="pop-name">${name}</h1>
   <h2 class="pop-category">${category}</h2>
   <p class="pop-description">${description}</p>
+  <p id="comment-count"></p>
   <ul id="comment-holder"></ul>
   <input type="text" id="name" placeholder="Your Name Here" />
   <textarea col="5" row="5" id="comment" placeholder="Your Comment Here"></textarea>
@@ -23,7 +25,9 @@ export default function myPopup(button, name, description, category, popPicture,
     document.body.removeChild(popContainer);
   });
   const commentHolder = document.getElementById('comment-holder');
+  const commentCount = document.getElementById('comment-count');
 
   myCommentDisplay(movieId, commentHolder);
-  /* myCommentAdd(movieId); */
+  myCommentAdd(movieId, commentHolder, commentCount);
+  myCommentCount(movieId, commentCount);
 }
