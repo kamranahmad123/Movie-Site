@@ -1,5 +1,5 @@
 import movieCount from './header.js';
-import { sendData} from './like-section.js';
+import sendData from './like-section.js';
 import myPopup from './Popup.js';
 
 const series = document.querySelector('.episode-list');
