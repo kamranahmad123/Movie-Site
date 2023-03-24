@@ -1,9 +1,10 @@
 import movieCount from './header.js';
+import { sendData} from './like-section.js';
 import myPopup from './Popup.js';
 
 const series = document.querySelector('.episode-list');
 
-const displayData = (data) => {
+const displayData = (data, count) => {
   const { name } = data;
   const description = data.summary;
   const movieId = data.id;
@@ -23,6 +24,10 @@ const displayData = (data) => {
   movieImage.classList.add('moviePic');
   movieName.innerHTML = name;
   movieCategory.innerHTML = category;
+  const x = count - 1;
+  like.addEventListener('click', () => {
+    sendData(x);
+  });
   button.innerHTML = 'Comment';
   likeCount.innerHTML = `<p>Likes: ${23}<p>`;
   like.setAttribute('class', 'fa fa-heart');
@@ -41,6 +46,8 @@ const displayData = (data) => {
       behavior: 'smooth', // for a smooth scrolling animation
     });
   });
+  // getLikeData(x).then((x) => { likeCount.innerHTML = `Likes: ${x}`; });
+  box.classList.add('box');
   box.classList.add('box');
   series.classList.add('series');
   box.appendChild(button);
@@ -64,7 +71,7 @@ const getData = async () => {
   data.forEach((element, count) => {
     if (count < 20) {
       count += 1;
-      displayData(element);
+      displayData(element, count);
       movieCount(count);
     }
   });
