@@ -1,5 +1,5 @@
 import './style.css';
-import './modules/header.js';
+import './modules/itemsCounter.js';
 import './modules/homePage.js';
 import './modules/Popup.js';
 import './modules/DisplayComment.js';

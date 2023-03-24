@@ -1,4 +1,4 @@
-import movieCount from './header.js';
+import itemsCount from './itemsCounter.js';
 import { sendData, getLikeData } from './like-section.js';
 import myPopup from './Popup.js';
 
@@ -71,7 +71,7 @@ const getData = async () => {
     if (count < 20) {
       count += 1;
       displayData(element, count);
-      movieCount(count);
+      itemsCount(count);
     }
   });
 };
