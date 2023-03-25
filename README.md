@@ -75,8 +75,9 @@ After you're finished please remove all the comments and instructions!
 - **[Styling css with colors, borders, paddings, margins & sizes, etc]**
 _ **[javascript functions, modules, ES6 syntax, variables, testing, etc]**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## <a href="https://kamranahmad123.github.io/Movie-Site/dist/">Live Link</a>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 🔭 Future Features <a name="future-features"></a>
 
 > I will Add style in this project with functions.
