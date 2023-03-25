@@ -1,6 +1,7 @@
-import movieCount from './header.js';
 import { sendData, getLikeData } from './like-section.js';
 import myPopup from './Popup.js';
+
+const movieCount = require('./header.js');
 
 const series = document.querySelector('.episode-list');
 
@@ -68,7 +69,7 @@ const getData = async () => {
   const res = await fetch('https://api.tvmaze.com/shows');
   const data = await res.json();
   data.forEach((element, count) => {
-    if (count < 20) {
+    if (count < 6) {
       count += 1;
       displayData(element, count);
       movieCount(count);
