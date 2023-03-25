@@ -1,50 +1,69 @@
+
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
+
+Modify this file to match your project and remove sections that don't apply.
+
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+- Authors
+- Future Features- 
+ - Mobile version design
+- Desktop version design
+- Dynamic HTML for featured-speakers
+
+OPTIONAL SECTIONS:
+- FAQ
+
+After you're finished please remove all the comments and instructions!
+-->
+
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <br/>
+</div>
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 To Do List Project ](#-to-do-list-project-)
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
-      - [Live Demo Link](#live-demo-link)
-  - [💻 Getting Started ](#-getting-started-)
-    - [Setup](#setup)
-    - [Deployment](#deployment)
-  - [👥 Authors](#-authors)
-  - [👥 Authors](#-authors-1)
-  - [🔭 Future-feature ](#-future-feature-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [🔭 Future Features](#future-features)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Leaderboard Project <a name="about-project"></a>
+# 📖 MOVIE APP
 
-**Leaderboard ** allows users to submit and get name and scores to/from server
+> This is MOVIE website Users can search for a movie and also add comments and like in this website. We used Api in this Movie website.
 
 ## 🛠 Built With <a name="built-with"></a>
-
+- HTML
+- CSS
+- JS
 ### Tech Stack <a name="tech-stack"></a>
 
-
-
-<details>
-  <summary>Languages</summary>
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Javascript</li>
-  </ul>
-</details>
+> I Used Gitflow, modules, and advanced JS (ES6) in the Leaderboard Project.
 
 <details>
-  <summary>Server</summary>
+  <summary>HTML</summary>
   <ul>
-    <li><a href="https://github.com/">Github</a></li>
+    <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+     <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+     <li><a href="https://www.w3schools.com/css/">Javascript</a></li>
   </ul>
 </details>
 
@@ -52,73 +71,111 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Display scores**
-- **Submit scores**
-- **Preserve data**
+- **[Html structure with Button, Inputs, etc]**
+- **[Styling css with colors, borders, paddings, margins & sizes, etc]**
+_ **[javascript functions, modules, ES6 syntax, variables, testing, etc]**
 
+## <a href="https://kamranahmad123.github.io/Movie-Site/dist/">Live Link</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 🔭 Future Features <a name="future-features"></a>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-#### <a href="https://kamranahmad123.github.io/leaderboard-proj/dist/">live link</a>
-
-
-
+> I will Add style in this project with functions.
 <!-- GETTING STARTED -->
-
-## 💻 Getting Started <a name="getting-started"></a>
-To get a local copy and run, follow these steps.
-### Prerequisites
-Visual Studio Code
-Chrome Browser
-Node.js
-### Setup
-1- Clone this repository to your desired folder
-
-2- cd my-folder
-
-3- git clone
-
-```
-  git@github.com/kamranahmad123/leaderboard-proj.git
-```
-
-4- cd leaderboard-proj
-
-### Install
-npm install
-### Usage
-npm run build
-npm start
-
-### Deployment
-
-You can deploy this project using 
-> [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
-
-> [github html preview](https://github.com/kamranahmad123/To-Do-Structure/tree/add-remove-todos) and paste index adress into it to view.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- AUTHORS -->
 
-## 👥 Authors 
-<a name="authors"></a>
+## 👥 Authors <a name="authors">Syed & Kamran</a>
 
+# <a name="authors">Syed Atril</a>
+👤 **Syed Atril**
+
+- GitHub: [@githubhandle](https://github.com/Atril33)
+- Twitter: [@twitterhandle](https://twitter.com/AtrilSyed)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/syed-atril-831696248/)
+- Facebook [Facebook](https://web.facebook.com/profile.php?id=100073724910623)
+
+# <a name="authors">Kamaran Ahmad</a>
 👤 **Kamran Ahmad**
-__Kamran Ahmad__
 - GitHub: [@githubhandle](https://github.com/kamranahmad123) 
 - Twitter: [@twitterhandle](https://twitter.com/handel)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kamran-khan-9a293b113/)
 
+## 💻 Getting Started <a name="getting-started"></a>
+
+### Prerequisites
+
+In order to run this project you need: to Clone the repo.
+<!--
+Example command:
+
+_  git clone_
+``
+https://github.com/kamranahmad123/Movie-Site.git
+```
+
+```sh
+ gem install rails
+```
+ -->
+
+### Setup
+
+Clone this repository to your desired folder: <br>
+`Opend CMD, Terminal or GitBash in your pc and type this` <br>
+`https://github.com/kamranahmad123/Movie-Site.git`
+ 
+### Run Test 
+install jest in project folder<br>
+_`npm install --save-dev jest`_<br>
+Run:<br>
+_`npm run test`_<br>
+
+<!--
+Example commands:
+
+```sh
+  cd my-folder
+https://github.com/Atril33/Todo_List_ES6.git
+```
+--->
+
+### Install
+
+Install this project with: <br>
+_You need to run this command `npm i`_ <br>
+_Then run this comman `npm run start`_
+<!--
+Example command:
+
+```sh
+  cd my-project
+  _git clone https://github.com/Atril33/Leaderboard.git_
+```
+--->
+
+### Usage
+_Run the project on Visual Studio Code Live Server._
+<!--
+Example command:
+
+```sh
+  rails server
+### Deployment
+
+You can deploy this project using:
+Not Yet
+<!--
+Example:
+
+```sh
+
+```
+ -->
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🔭 Future-feature <a name="future-features"></a>
-
-- [ ] **Javascript only, to do a simple CRUD**
+<!-- FUTURE FEATURES -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,13 +187,9 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project give me a star.
+> If you like this project feel comfortable to endorse the authors. Give a star in github repository.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,14 +197,7 @@ If you like this project give me a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
- We would like to thank all our fellow micronauts.
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-- **What is this project?**
-
-  - It's a  project of micoverse curriculum entitled To Do List.
+> We would like to thank my coding partners, mentors and Microverse for their support in building the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,9 +205,8 @@ If you like this project give me a star.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/kamranahmad123/leaderboard/blob/setup-project/LICENSE.md) licensed.
+This project is [[MIT](https://choosealicense.com/licenses/mit/)](./LICENSE) licensed.
+
+> This project has [MIT license](https://choosealicense.com/licenses/mit/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-# leaderboard
-# javascriptCaptsone

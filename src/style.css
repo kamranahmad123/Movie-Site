@@ -1,0 +1,249 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  font-family: sans-serif;
+  list-style: none;
+}
+
+.header {
+  background-color: rgb(61, 60, 61);
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.logo {
+  font-family: cursive;
+  border-left: 1.5px solid #fff;
+  border-top: 1.5px solid #fff;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.my-links,
+.link {
+  display: inline-block;
+}
+
+.link {
+  margin: 0 30px;
+}
+
+@media screen and (max-width: 800px) {
+  .my-links {
+    display: flex;
+    width: 80%;
+    margin-left: 10px;
+  }
+
+  .link,
+  .logo {
+    font-size: smaller;
+  }
+}
+
+/* Footer Part */
+
+.description-footer {
+  color: white;
+  margin-right: 1%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(61, 60, 61);
+  padding-left: 8%;
+  height: 60px;
+  width: 100%;
+}
+
+.combination {
+  display: flex;
+  width: 50%;
+  margin-top: 10px;
+}
+
+.show-footer {
+  height: 25px;
+  margin-left: 10%;
+}
+
+.shows-part {
+  margin-top: 15px;
+  color: rgb(83, 218, 83);
+}
+
+@media screen and (max-width: 800px) {
+  .show-part {
+    font-size: smaller;
+  }
+
+  .show-footer {
+    font-size: smaller;
+    margin-left: -30px;
+  }
+
+  .combination {
+    margin-right: -15px;
+    width: 79%;
+  }
+}
+
+/* Main section */
+.episode-list {
+  display: flex;
+  flex-flow: row wrap;
+  width: 60%;
+  margin-left: 20%;
+  justify-content: space-between;
+}
+
+.moviePic {
+  border-bottom: solid 2px wheat;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  border-top-right-radius: 2%;
+  width: 210px;
+}
+
+.movieFrame {
+  border: solid 1px rgb(109, 96, 96);
+  border-radius: 2%;
+  margin-bottom: 2%;
+  color: white;
+  width: 210px;
+}
+
+.movieName,
+.movieCategory {
+  color: white;
+  margin-left: 2%;
+  font-family:
+    "Lucida Sans",
+    "Lucida Sans Regular",
+    "Lucida Grande",
+    "Lucida Sans Unicode",
+    Geneva,
+    Verdana,
+    sans-serif;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 780px) {
+  .episode-list {
+    margin-left: 30%;
+  }
+
+  .pup-holder {
+    width: 90%;
+  }
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.picDetails {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.button {
+  border-radius: 9%;
+  border: solid white;
+  color: brown;
+  height: 25px;
+}
+
+.likeCount {
+  margin-left: 2%;
+}
+
+/* like part */
+.like {
+  color: red;
+}
+
+.pop-container {
+  width: 100%;
+  height: 4500px;
+  background: rgba(34, 34, 34, 0.808);
+  position: absolute;
+  top: 0;
+}
+
+.pup-holder {
+  background: #fff;
+  width: 50%;
+  height: auto;
+  padding: 20px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pop-image {
+  width: 100%;
+}
+
+#closeX {
+  font-size: 40px;
+  color: #fff;
+  right: 30px;
+  top: 30px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.pop-category {
+  margin-top: -15px;
+}
+
+.pop-description {
+  margin-top: -15px;
+}
+
+#name,
+#comment {
+  border: 1.5px solid #000;
+  width: 70%;
+  margin: 7px;
+}
+
+#post {
+  padding: 7px;
+}
+
+#comment-holder {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  list-style: none;
+}
+
+.list-item {
+  padding: 7px;
+  width: 80%;
+  background: #f9f9f9;
+  align-self: center;
+  border: 1px solid #c5c1c1;
+  margin: 3px 0;
+  text-align: left;
+  margin-left: -35px;
+}
