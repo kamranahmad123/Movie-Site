@@ -1,5 +1,7 @@
 const myMovieCount = document.getElementById('showNumber');
 
-export default function movieCount(count) {
+const movieCount = (count) => {
   myMovieCount.innerHTML = `Total TV-shows(${count})`;
-}
+};
+
+module.exports = movieCount;

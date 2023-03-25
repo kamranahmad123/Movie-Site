@@ -1,6 +1,7 @@
 import myCommentDisplay from './DisplayComment.js';
 import myCommentAdd from './AddComments.js';
-import myCommentCount from './countComments.js';
+
+const myCommentCount = require('./countComments.js');
 
 export default function myPopup(button, name, description, category, popPicture, movieId) {
   const popContainer = document.createElement('div');

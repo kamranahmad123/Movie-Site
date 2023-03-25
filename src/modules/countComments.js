@@ -8,4 +8,4 @@ const myCommentCount = async (movieId, commentCount) => {
     });
 };
 
-export default myCommentCount;
+module.exports = myCommentCount;

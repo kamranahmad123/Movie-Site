@@ -1,6 +1,7 @@
-import movieCount from './header.js';
 import { sendData, getLikeData } from './like-section.js';
 import myPopup from './Popup.js';
+
+const movieCount = require('./header.js');
 
 const series = document.querySelector('.episode-list');
 
