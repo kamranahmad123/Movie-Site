@@ -22,7 +22,7 @@ describe('myCommentCount', () => {
   it('should fetch comments and update the comment count element', async () => {
     await myCommentCount('123', commentCountMock);
 
-    expect(fetchMock).toHaveBeenCalledWith('https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/RIQXlT0tOk3Ka907K1S2/comments?item_id=item123');
+    expect(fetchMock).toHaveBeenCalledWith('https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/uRUkwf3OzzvRwdQqwctM/comments?item_id=item123');
 
     expect(commentCountMock.innerText).toBe('Comments(2)');
   });

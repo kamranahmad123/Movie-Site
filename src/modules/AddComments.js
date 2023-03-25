@@ -10,7 +10,7 @@ const myCommentAdd = (movieId, commentHolder, commentCount) => {
       return;
     }
     const sendData = async () => {
-      fetch('https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/RIQXlT0tOk3Ka907K1S2/comments/', {
+      fetch('https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/uRUkwf3OzzvRwdQqwctM/comments/', {
         method: 'POST',
         body: JSON.stringify({
           item_id: `item${movieId}`,
@@ -24,7 +24,7 @@ const myCommentAdd = (movieId, commentHolder, commentCount) => {
 
     sendData();
     const getData = async () => {
-      const res = await fetch(`https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/RIQXlT0tOk3Ka907K1S2/comments?item_id=item${movieId}`);
+      const res = await fetch(`https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/uRUkwf3OzzvRwdQqwctM/comments?item_id=item${movieId}`);
       const data = await res.json();
 
       commentCount.innerText = `Comments(${data.length})`;
